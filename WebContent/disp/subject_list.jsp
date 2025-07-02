@@ -27,7 +27,7 @@
             <td>${subj.cd}</td>
             <td>${subj.name}</td>
             <td>
-              <a href="${pageContext.request.contextPath}/disp/subject_updateform?cd=${subj.cd}">変更</a>
+              <a href="${pageContext.request.contextPath}/disp/subjectupdateform?cd=${subj.cd}">変更</a>
               |
               <a href="${pageContext.request.contextPath}/action/subjectdelete?cd=${subj.cd}"
                  onclick="return confirm('本当に削除しますか？');">削除</a>

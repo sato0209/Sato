@@ -55,6 +55,6 @@ public class SubjectUpdateForm extends HttpServlet {
     }
 
     request.setAttribute("subject", subj);
-    request.getRequestDispatcher("/disp/subject_update.jsp").forward(request, response);
+    request.getRequestDispatcher("/disp/subject_updateform.jsp").forward(request, response);
   }
 }
