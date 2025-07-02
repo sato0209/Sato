@@ -16,8 +16,12 @@
         <td><input type="text" name="name" id="name" required maxlength="20" /></td>
       </tr>
     </table>
-    <br>
-    <input type="submit" value="登録">
+    <div class="button-row">
+      <a href="${pageContext.request.contextPath}/action/subjectlist">
+        <button type="button" class="back">戻る</button>
+      </a>
+      <button type="submit">登録</button>
+    </div>
   </form>
 </div>
 
