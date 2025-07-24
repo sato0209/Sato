@@ -77,11 +77,12 @@
 
     <div class="id_input">
       <p>　　　　　ID
-        <input class="ef" type="text" name="id" placeholder="半角でご入力ください" value="${id}" required>
+        <input class="ef" type="text" name="id" placeholder="半角でご入力ください" value="${param.id}" required>
       </p>
     </div>
 
     <div class="pass_input">
+
       <p>パスワード
         <input class="ef" type="password" name="password" id="Show" placeholder="30文字以内の半角英数字でご入力ください" maxlength="30" required>
       </p>
